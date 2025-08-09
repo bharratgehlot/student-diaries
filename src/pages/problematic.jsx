@@ -1,4 +1,4 @@
-function ProblematicApp() {
+function Problematic() {
   return (
     <div>
       <h1>problematic</h1>
@@ -8,4 +8,4 @@ function ProblematicApp() {
   )
 }
 
-export default ProblematicApp
+export default Problematic
