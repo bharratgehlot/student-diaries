@@ -1,8 +1,13 @@
 import { useState } from 'react'
 import './App.css'
+import ProblematicApp from './pages/problematic'
 
 function App() {
-  const [count, setCount] = useState(0)
+const [showProblematic, setShowProblematic] = useState(false)
+
+if (showProblematic) {
+  return <ProblematicApp/>
+}
 
   return (
     <>
@@ -10,8 +15,9 @@ function App() {
       <h1>Student Diaries</h1>
      
       <p className="read-the-docs">
-        Student Diaries is log and note taking App. Initial stage Version: 0.0.0 
+        Student Diaries is log and note taking App. Initial Stage <b>Version: 0.0.0 </b>
       </p>
+      <a href='#' onClick={()=> setShowProblematic(true)}>access problematic early</a>
     </>
   )
 }
