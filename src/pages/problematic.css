@@ -1,0 +1,32 @@
+ h1 {
+  color:crimson;
+ }
+
+ .logo {
+  display: block;
+  width: 150px;
+  height: auto;
+  margin: 0 auto 20px auto;
+ }
+
+ button {
+  color: black;
+  background-color: greenyellow;
+  border: none;
+  border-radius: 1px;
+  padding: 5px;
+  margin: 10px;
+  transform: 0.3s ease;
+ }
+
+
+
+ button:hover {
+  background-color: black;
+  color: white;
+ }
+
+
+ input{
+  margin: 5px;
+ }

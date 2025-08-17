@@ -1,10 +1,23 @@
+import './problematic.css'
+import logo from '../assets/logo.png'
+
 function Problematic() {
   return (
     <div>
-      <h1>problematic</h1>
+      <img src={logo} alt='logo' className='logo'/>
       <p>This is problematic App</p>
-    </div>
 
+      <form>
+      <label>Add Problem
+        <input type="text" /> </label>
+
+      <button type='submit'>
+        Add
+      </button>
+      
+      </form>
+    </div>
+    
   )
 }
 

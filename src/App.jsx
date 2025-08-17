@@ -15,7 +15,7 @@ function Home() {
       </p>
 
       <nav>
-        <Link to="/problematic">Access Problematic</Link>
+        <Link to="/problematic">Access Problematic Early</Link>
         <Link to="/about">About Us</Link>
         </nav>
 
